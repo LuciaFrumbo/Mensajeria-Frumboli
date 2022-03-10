@@ -17,8 +17,8 @@ body {
     grid-template-rows: auto 1fr auto;
     font-size: 62.5%;
     font-family: 'Playfair Display', serif;
-    /* PARA PONER GRADIENTE, CAMBIAR COLORES MAS ADELANTE 
-    background: linear-gradient(rgb(94, 11, 11), rgb(250, 246, 246));*/
+    /* CAMBIAR COLORES  */
+    background: linear-gradient(rgb(94, 11, 11), rgb(250, 246, 246));
 }
 
 a {
@@ -30,8 +30,6 @@ a {
 
 }
 
-
-
 header .navbar {
     display: flex;
     justify-content: space-around;
@@ -42,9 +40,11 @@ header .navbar {
 
 }
 
-/*.navbar__item:hover {
+.navbar__item:hover {
     width: 15em;
-} NO USAR AHORA */
+    background: white;
+  cursor: pointer;
+} 
 
 
 .principal {
