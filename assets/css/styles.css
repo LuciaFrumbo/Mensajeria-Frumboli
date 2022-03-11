@@ -18,7 +18,9 @@ body {
     font-size: 62.5%;
     font-family: 'Playfair Display', serif;
     /* CAMBIAR COLORES  */
-    background: linear-gradient(rgb(94, 11, 11), rgb(250, 246, 246));
+    background-image: radial-gradient(circle, #4c4b4c, #6e6d6e, #929192, #b7b6b7, #deddde);
+  /* background-image: url(../imagenes/motocross_3840x2160_xtrafondos.com.jpg);
+*/
 }
 
 a {
@@ -42,10 +44,22 @@ header .navbar {
 
 .navbar__item:hover {
     width: 15em;
-    background: white;
-  cursor: pointer;
+   /* background: #353434;*/
+    font-size: 1.3em;
+    cursor: pointer;
+    border: solid 10px black;
+    border-style:double;
+    border-radius: 1em;
+    text-align: center;
+
 } 
 
+.navbar__item {
+    border: solid 10px black;
+    border-style:double;
+    border-radius: 1em;
+    text-align: center;
+}
 
 .principal {
     width: 100%;
@@ -54,11 +68,12 @@ header .navbar {
     padding: 50px;
     font-size: 3em;
     text-align: center;
-    border-top: solid 10px black;
+   /* Borrar esto o cambiarlo 
+   border-top: solid 10px black;
     border-right: solid 10px rgb(94, 11, 11);
     border-bottom: solid 10px black;
     border-left: solid 10px rgb(94, 11, 11);
-    background-color: bisque;
+    background-color: bisque;*/
 }
 
 /* Estilos Index */
@@ -74,6 +89,7 @@ header__logo {
     flex-basis: 30%;
 }
 
+
 /*MAIN*/
 main {
     display: grid;
@@ -82,12 +98,14 @@ main {
 
 }
 
+
 h1 {
     text-transform: uppercase;
     font-family: 'Caveat', cursive;
     font-family: 'Shizuru', cursive;
     font-size: 4em;
     align-self: center;
+    position: relative;
 }
 
 
