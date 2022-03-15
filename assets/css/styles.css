@@ -19,7 +19,7 @@ body {
     font-family: 'Playfair Display', serif;
     /* CAMBIAR COLORES  */
     background-image: radial-gradient(circle, #4c4b4c, #6e6d6e, #929192, #b7b6b7, #deddde);
-  /* background-image: url(../imagenes/motocross_3840x2160_xtrafondos.com.jpg);
+    /* background-image: url(../imagenes/motocross_3840x2160_xtrafondos.com.jpg);
 */
 }
 
@@ -44,45 +44,57 @@ header .navbar {
 
 .navbar__item:hover {
     width: 15em;
-   /* background: #353434;*/
+    /* background: #353434;*/
     font-size: 1.3em;
     cursor: pointer;
-    border: solid 10px black;
-    border-style:double;
+    border: solid 10px rgb(241, 253, 71);
+    border-style: double;
     border-radius: 1em;
     text-align: center;
 
-} 
+}
 
 .navbar__item {
     border: solid 10px black;
-    border-style:double;
+    border-style: double;
     border-radius: 1em;
     text-align: center;
 }
 
 .principal {
     width: 100%;
-    height: 100%;
-    margin: 5px auto 300px;
+    height: 70%;
+    margin: 50px auto 300px;
     padding: 50px;
     font-size: 3em;
     text-align: center;
-   /* Borrar esto o cambiarlo 
-   border-top: solid 10px black;
-    border-right: solid 10px rgb(94, 11, 11);
-    border-bottom: solid 10px black;
-    border-left: solid 10px rgb(94, 11, 11);
-    background-color: bisque;*/
+    /* Borrar esto o cambiarlo */
+    border: solid 10px black;
+    border-radius: 1em;
+    background-image: radial-gradient(circle, #f6f9a3, #dde181, #c3ca60, #aab33e, #919d12);
 }
 
 /* Estilos Index */
+.about {
+
+    width: 30%;
+    height: 40%;
+    margin: 150px auto 300px;
+    padding: 50px;
+    font-size: 1.9em;
+    text-align: center;
+    border: solid 10px rgb(10, 6, 6);
+    border-radius: 1em;
+    background-image: radial-gradient(circle, #f6f9a3, #dde181, #c3ca60, #aab33e, #919d12);
+}
 
 
 /*HEADER*/
 
 .flex-row {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 header__logo {
@@ -98,15 +110,14 @@ main {
 
 }
 
-
-h1 {
-    text-transform: uppercase;
-    font-family: 'Caveat', cursive;
-    font-family: 'Shizuru', cursive;
-    font-size: 4em;
-    align-self: center;
+picture .presentacion {
+    width: 100%;
+    height: 100%;
     position: relative;
+    margin-bottom: 100px;
+
 }
+
 
 
 /*FOOTER*/
@@ -156,8 +167,13 @@ main section .service {
 
 /* Estilos Contacto */
 
+.form {
+    font-size: 1em;
+
+}
+
 input {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -166,11 +182,6 @@ input {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1012px) {
-    h1 {
-        text-align: center;
-        font-size: 2em;
-
-    }
 
     nav {
         flex-wrap: wrap;
