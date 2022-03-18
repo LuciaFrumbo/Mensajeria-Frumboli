@@ -18,9 +18,9 @@ body {
     font-size: 62.5%;
     font-family: 'Playfair Display', serif;
     /* CAMBIAR COLORES  */
-    background-image: radial-gradient(circle, #4c4b4c, #6e6d6e, #929192, #b7b6b7, #deddde);
-    /* background-image: url(../imagenes/motocross_3840x2160_xtrafondos.com.jpg);
-*/
+    /*background-image: radial-gradient(circle, #4c4b4c, #6e6d6e, #929192, #b7b6b7, #deddde);
+    */
+    background-color: rgb(199, 195, 195);
 }
 
 a {
@@ -44,10 +44,9 @@ header .navbar {
 
 .navbar__item:hover {
     width: 15em;
-    /* background: #353434;*/
     font-size: 1.3em;
     cursor: pointer;
-    border: solid 10px rgb(241, 253, 71);
+    border: solid 10px;
     border-style: double;
     border-radius: 1em;
     text-align: center;
@@ -71,7 +70,8 @@ header .navbar {
     /* Borrar esto o cambiarlo */
     border: solid 10px black;
     border-radius: 1em;
-    background-image: radial-gradient(circle, #f6f9a3, #dde181, #c3ca60, #aab33e, #919d12);
+    /* background-image: url(../imagenes/Color\ Hunt\ Palette\ dddddd125d983c8dadf5a962.png);
+*/
 }
 
 /* Estilos Index */
@@ -82,10 +82,11 @@ header .navbar {
     margin: 150px auto 300px;
     padding: 50px;
     font-size: 1.9em;
-    text-align: center;
-    border: solid 10px rgb(10, 6, 6);
-    border-radius: 1em;
-    background-image: radial-gradient(circle, #f6f9a3, #dde181, #c3ca60, #aab33e, #919d12);
+    text-align: justify;
+    /*border: solid 10px rgb(10, 6, 6);
+    border-radius: 1em;*/
+    /*  background-image: url(../imagenes/Color\ Hunt\ Palette\ dddddd125d983c8dadf5a962.png);
+*/
 }
 
 
@@ -145,32 +146,24 @@ footer img {
 /* Estilos Horarios */
 
 /* Estilos Tarifas */
-main section .title-list {
-    text-align: center;
-}
-
-.list {
-    text-align: left;
-}
-
-main section .service {
-    text-align: left;
-}
-
-.flex {
-    text-transform: uppercase;
-    text-align: left;
-
-}
 
 /* Estilos Zonas */
 
 /* Estilos Contacto */
 
-.form {
-    font-size: 1em;
-
+.contactus {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    margin: 150px auto 100px;
+    padding: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 10px black;
+    border-radius: 1em;
 }
+
 
 input {
     width: 80%;
@@ -180,11 +173,30 @@ input {
     text-align: center;
 }
 
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    margin-bottom: 0px;
+    right: 50px;
+    border-radius: 50%;
+    line-height: 550px;
+    text-align: center;
+    z-index: 999;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1012px) {
 
-    nav {
+    .flex-row {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+
     }
+
+
+
+
 }
