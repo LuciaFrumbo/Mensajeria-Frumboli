@@ -1,0 +1,37 @@
+/* Estilos Contacto */
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    margin: 150px auto 100px;
+    padding: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    border: solid 10px black;
+    border-radius: 1em;
+}
+
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    margin-bottom: 0px;
+    right: 50px;
+    border-radius: 50%;
+    line-height: 550px;
+    text-align: center;
+    z-index: 999;
+}

@@ -1,0 +1,33 @@
+/*Normalize*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estlos Globales */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 62.5%;
+    font-family: 'Playfair Display', serif;
+    /* CAMBIAR COLORES  */
+    /*background-image: radial-gradient(circle, #4c4b4c, #6e6d6e, #929192, #b7b6b7, #deddde);
+    */
+    background-color: rgb(199, 195, 195);
+}
+
+main {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    justify-items: center;
+
+}
