@@ -1,4 +1,13 @@
 /*VARIABLES*/
+.background__color--blue {
+  background-color: blue; }
+
+.background__color--Red {
+  background-color: Red; }
+
+.background__color--yellow {
+  background-color: yellow; }
+
 /*GLOBALES*/
 /*Normalize*/
 *,
@@ -29,15 +38,16 @@ main {
   justify-items: center; }
 
 /*HELPERS*/
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
+/*.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}*/
 /* MEDIA QUERIES */
 @media screen and (max-width: 1012px) {
   .flex-row {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap; } }
 
 /*PARTIALS*/
@@ -52,10 +62,22 @@ header a {
   font-size: 1.8em;
   padding: 1rem; }
 
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em; }
+
 header .navbar {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  gap: 0em;
+  /*display: flex;
+            justify-content: space-around;
+            align-items: center;*/
   min-height: 10vh;
   flex-basis: 70%;
   list-style-type: none; }
@@ -76,9 +98,14 @@ header .navbar {
 /*FOOTER*/
 footer {
   display: flex;
-  gap: 20px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  /*display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;*/
   margin: 100px auto 0;
   max-width: 1080px; }
   footer__img {
@@ -93,15 +120,26 @@ footer {
 
 /*VIEWS*/
 /* Estilos Index */
-.about {
+.about, .about--border {
   width: 30%;
   height: 40%;
   margin: 150px auto 300px;
   padding: 50px;
   font-size: 1.9em;
   text-align: justify;
+  background-color: yellow;
   /*border: solid 10px rgb(10, 6, 6);
     border-radius: 1em;*/ }
+  .about--border {
+    border: solid 10px black;
+    border-radius: 1.5em; }
+
+.position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em; }
 
 /*ZONAS*/
 .zonas {
@@ -121,6 +159,11 @@ footer {
 .contactus {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  /* display: flex;
+    flex-direction: column;*/
   width: 50%;
   height: 70%;
   margin: 150px auto 100px;

@@ -1,0 +1,11 @@
+$background__color:(
+Blue: blue,
+Red: Red,
+Yellow: yellow,
+);
+
+@each $var, $val in $background__color {
+    .background__color--#{$val} {
+        background-color: #{$val};
+    }
+}

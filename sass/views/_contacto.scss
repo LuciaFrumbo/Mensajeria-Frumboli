@@ -1,8 +1,9 @@
 /* Estilos Contacto */
 
 .contactus {
-    display: flex;
-    flex-direction: column;
+    @include flex(column, space-between, center, 1em);
+   /* display: flex;
+    flex-direction: column;*/
     width: 50%;
     height: 70%;
     margin: 150px auto 100px;
