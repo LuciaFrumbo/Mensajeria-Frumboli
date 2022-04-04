@@ -1,21 +1,17 @@
 /*FOOTER*/
 footer {
     @include flex(row, center, center, 20px);
-    /*display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;*/
-    margin: 100px auto 0;
+    margin: 200px auto 0;
     max-width: 1080px;
     &__img {
         width: 100px;
         height: 100px;
+        max-width: 1080px;
         
     }
 }
 /* Cambiar fuente y nombre de la clase*/
 .text-foot {
     font-size: 40px;
-    font-family: 'Caveat', cursive;
-    font-family: 'Shizuru', cursive;
+    font-family:'Montserrat',sans-serif;
 }

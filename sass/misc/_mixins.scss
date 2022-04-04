@@ -1,9 +1,4 @@
 /*HELPERS*/
-/*.flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}*/
 
 @mixin flex($direction, $justify, $align, $gap){
     display:flex;
@@ -16,10 +11,11 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 1012px) {
 
-    .flex-row {
+    .mediaflex {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
 
     }
+    
 }

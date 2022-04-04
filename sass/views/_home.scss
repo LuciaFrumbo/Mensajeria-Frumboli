@@ -1,19 +1,20 @@
 /* Estilos Index */
 .about {
-    width: 30%;
-    height: 40%;
+    width: 33%;
+    height: 50%;
     margin: 150px auto 300px;
+    border: solid 0.5em black;
+    border-radius: 1em;
     padding: 50px;
     font-size: 1.9em;
     text-align: justify;
-    background-color: map-get($background__color, yellow );
-    /*border: solid 10px rgb(10, 6, 6);
-    border-radius: 1em;*/
-    &--border {
-        @extend .about;
-        border: solid 10px black;
-        border-radius: 1.5em;
-    }
+    transition: 2s;
+        &:hover {
+            height: 55%;
+            width: 45%;
+            margin: 170px 50px;
+        
+        }
 }
 
 .position {
