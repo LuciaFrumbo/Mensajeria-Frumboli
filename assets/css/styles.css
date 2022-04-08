@@ -86,64 +86,91 @@ header .navbar {
 /*FOOTER*/
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  margin: 200px auto 0;
-  max-width: 1080px; }
-  footer__img {
-    width: 100px;
-    height: 100px;
-    max-width: 1080px; }
+  gap: 0px;
+  margin: 200px auto;
+  max-width: 1080px;
+  padding-bottom: 50px; }
 
-/* Cambiar fuente y nombre de la clase*/
-.text-foot {
+.footer__img {
+  margin: auto 25px; }
+
+.footer__text {
   font-size: 40px;
   font-family: 'Montserrat',sans-serif; }
 
 /*VIEWS*/
 /* Estilos Index */
-.about {
-  width: 33%;
-  height: 50%;
-  margin: 150px auto 300px;
-  border: solid 0.5em black;
-  border-radius: 1em;
-  padding: 50px;
-  font-size: 1.9em;
-  text-align: justify;
-  transition: 2s; }
-  .about:hover {
-    height: 55%;
-    width: 45%;
-    margin: 170px 50px; }
-
-.position {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1em; }
-
-/*ZONAS*/
-.zonas {
-  width: 100%;
-  height: 70%;
-  margin: 50px auto 300px;
-  padding: 50px;
-  font-size: 3em;
-  text-align: center;
-  border: solid 10px black;
-  border-radius: 1em; }
-
-.horarios {
+.about__left {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   gap: 1em;
-  margin-top: 50px;
+  width: 100%;
+  height: 30%;
+  margin: 50px auto 30px;
+  padding: 50px;
+  font-size: 2.2em;
+  text-align: center;
+  border-left: solid 0.2em black;
+  border-bottom: solid 0.2em black;
+  box-shadow: 0 0 40px -10px #000; }
+  .about__left:hover {
+    border-right: solid 0.2em white;
+    border-top: solid 0.2em white; }
+
+.about__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  height: 30%;
+  margin: 50px auto 30px;
+  padding: 50px;
+  font-size: 2.2em;
+  text-align: center;
+  border-right: solid 0.2em white;
+  border-top: solid 0.2em white;
+  box-shadow: 0 0 40px -10px #000; }
+  .about__right:hover {
+    border-left: solid 0.2em black;
+    border-bottom: solid 0.2em black; }
+
+.position {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin-bottom: 100px; }
+
+/*ZONAS*/
+.zonas {
+  margin-top: 100px;
+  text-align: center;
+  align-items: center; }
+  .zonas__img {
+    width: 59%;
+    margin: 50px 220px;
+    border: solid 0.5em black;
+    box-shadow: 0 0 40px -10px #000; }
+
+.title {
+  font-size: 5em; }
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  margin: 50px auto 300px;
   width: 100%; }
   .horarios__info {
     display: flex;
@@ -155,14 +182,14 @@ footer {
     height: 50%;
     margin: 100px auto 30px;
     padding: 50px;
-    font-size: 1.7em;
+    font-size: 2.5em;
     text-align: center;
-    border: solid 0.5em black;
-    border-radius: 1em;
-    transition: 2s; }
+    border-left: solid 0.2em black;
+    border-bottom: solid 0.2em black;
+    box-shadow: 0 0 40px -10px #000; }
     .horarios__info:hover {
-      width: 100%;
-      height: 70%; }
+      border-right: solid 0.2em white;
+      border-top: solid 0.2em white; }
     .horarios__info--negrita {
       font-weight: bold; }
 
@@ -172,11 +199,15 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 1em;
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-bottom: 300px; }
   .prices__img {
     margin-top: 100px;
     border: solid 0.5em black;
-    border-radius: 1em; }
+    box-shadow: 0 0 40px -10px #000; }
+
+.prices__text {
+  font-size: 5em; }
 
 /* Estilos Contacto */
 /*

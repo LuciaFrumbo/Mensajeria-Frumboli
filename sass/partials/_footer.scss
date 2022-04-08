@@ -1,17 +1,18 @@
 /*FOOTER*/
 footer {
-    @include flex(row, center, center, 20px);
-    margin: 200px auto 0;
+    @include flex(column, center, center, 0px);
+    margin: 200px auto;
     max-width: 1080px;
-    &__img {
-        width: 100px;
-        height: 100px;
-        max-width: 1080px;
-        
+    padding-bottom: 50px;
+}
+.footer__img {
+    margin: auto 25px;
     }
-}
-/* Cambiar fuente y nombre de la clase*/
-.text-foot {
-    font-size: 40px;
-    font-family:'Montserrat',sans-serif;
-}
+
+.footer__text {
+        font-size: 40px;
+        font-family:'Montserrat',sans-serif;
+    }
+    
+
+
