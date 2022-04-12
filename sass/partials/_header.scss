@@ -39,7 +39,23 @@ header {
                     text-align: center;
                 
                             }
+                            &--active {
+                                font-family:'Montserrat',sans-serif; 
+                                width: 15em;
+                                color: white;
+                                text-align: center;
+                                font-size: 1.3em;
+                                cursor: pointer;
+                                border-right: solid 5px white;
+                                border-top: solid 5px white;
+                                border-left: solid 5px black;
+                                border-bottom: solid 5px black;
+                            }
                 }
+
+
+
+                
             }
 }
 
