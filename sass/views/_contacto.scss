@@ -1,32 +1,12 @@
 /* Estilos Contacto */
-/*
-.contactus {
-    @include flex(column, space-between, center, 1em);
-    width: 50%;
-    height: 70%;
-    margin: 150px auto 100px;
-    padding: 50px;
-    font-size: 1.5em;
-    text-align: center;
-    border: solid 10px black;
-    border-radius: 1em;
-}
 
-
-input {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    text-align: center;
-}
-*/
 
 .form{
-    width:340px;
-    height:440px;
+    width:440px;
+    height:540px;
     background:#e6e6e6;
-    border-radius:8px;
+    border: solid 0.5em black;
+    /*border-radius:8px;*/
     box-shadow:0 0 40px -10px #000;
     margin:150px auto;
     padding:20px 30px;
@@ -63,7 +43,7 @@ p:before{
     content:attr(type);
     display:block;
     margin:28px 0 0;
-    font-size:14px;
+    font-size:20px;
     color:#5a5a5a;
 }
 
@@ -91,7 +71,7 @@ button{
     width:320px;
     margin-top: 50px;
     padding:16px 4px 16px 0;
-    border-radius:6px;
+    /*border-radius:6px;*/
     font-size:13px;
     box-shadow:10px 10px 40px -14px #000;
 }
