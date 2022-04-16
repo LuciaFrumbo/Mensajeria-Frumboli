@@ -1,18 +1,16 @@
 /*FOOTER*/
 footer {
-    @include flex(column, center, center, 0px);
-    margin: 200px auto;
-    max-width: 1080px;
-    padding-bottom: 50px;
+    @include flex(column, center, center, 1em);
+    margin: 12.5rem auto;
+    max-width: 67.5rem;
+    padding-bottom: 3.1rem;
 }
+
 .footer__img {
-    margin: auto 25px;
-    }
+    margin: auto 1.6rem;
+}
 
 .footer__text {
-        font-size: 40px;
-        font-family:'Montserrat',sans-serif;
-    }
-    
-
-
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}

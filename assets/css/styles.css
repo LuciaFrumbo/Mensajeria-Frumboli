@@ -8,6 +8,7 @@
 .background__color--yellow {
   background-color: yellow; }
 
+/*HACER ROOTS*/
 /*GLOBALES*/
 /*Normalize*/
 *,
@@ -40,7 +41,11 @@ main {
   .mediaflex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .horarios__media {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 
 /*PARTIALS*/
 /*HEADER*/
@@ -71,28 +76,28 @@ header .navbar {
   flex-basis: 70%;
   list-style-type: none; }
   header .navbar__item {
-    font-family: 'Montserrat',sans-serif;
-    border-left: solid 5px black;
-    border-bottom: solid 5px black;
+    font-family: 'Montserrat', sans-serif;
+    border-left: solid 0.3rem black;
+    border-bottom: solid 0.3rem black;
     text-align: center; }
     header .navbar__item:hover {
       width: 15em;
       font-size: 1.3em;
       cursor: pointer;
-      border-right: solid 5px white;
-      border-top: solid 5px white;
+      border-right: solid 0.3rem white;
+      border-top: solid 0.3rem white;
       text-align: center; }
     header .navbar__item--active {
-      font-family: 'Montserrat',sans-serif;
+      font-family: 'Montserrat', sans-serif;
       width: 15em;
       color: white;
       text-align: center;
       font-size: 1.3em;
       cursor: pointer;
-      border-right: solid 5px white;
-      border-top: solid 5px white;
-      border-left: solid 5px black;
-      border-bottom: solid 5px black; }
+      border-right: solid 0.3rem white;
+      border-top: solid 0.3rem white;
+      border-left: solid 0.3rem black;
+      border-bottom: solid 0.3rem black; }
 
 /*FOOTER*/
 footer {
@@ -100,17 +105,17 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0px;
-  margin: 200px auto;
-  max-width: 1080px;
-  padding-bottom: 50px; }
+  gap: 1em;
+  margin: 12.5rem auto;
+  max-width: 67.5rem;
+  padding-bottom: 3.1rem; }
 
 .footer__img {
-  margin: auto 25px; }
+  margin: auto 1.6rem; }
 
 .footer__text {
-  font-size: 40px;
-  font-family: 'Montserrat',sans-serif; }
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif; }
 
 /*VIEWS*/
 /* Estilos Index */
@@ -122,13 +127,13 @@ footer {
   gap: 1em;
   width: 100%;
   height: 30%;
-  margin: 50px auto 30px;
-  padding: 50px;
+  margin: 3.1rem auto 1.9rem;
+  padding: 3.1rem;
   font-size: 2.2em;
   text-align: center;
   border-left: solid 0.2em black;
   border-bottom: solid 0.2em black;
-  box-shadow: 0 0 40px -10px #000; }
+  box-shadow: 0 0 2.5rem -0.63rem #000; }
   .about__left:hover {
     border-right: solid 0.2em white;
     border-top: solid 0.2em white; }
@@ -141,13 +146,13 @@ footer {
   gap: 1em;
   width: 100%;
   height: 30%;
-  margin: 50px auto 30px;
-  padding: 50px;
+  margin: 3.1rem auto 1.9rem;
+  padding: 3.1rem;
   font-size: 2.2em;
   text-align: center;
   border-right: solid 0.2em white;
   border-top: solid 0.2em white;
-  box-shadow: 0 0 40px -10px #000; }
+  box-shadow: 0 0 2.5rem -0.63rem #000; }
   .about__right:hover {
     border-left: solid 0.2em black;
     border-bottom: solid 0.2em black; }
@@ -163,14 +168,14 @@ footer {
 
 /*ZONAS*/
 .zonas {
-  margin-top: 100px;
+  margin-top: 6.3rem;
   text-align: center;
   align-items: center; }
   .zonas__img {
     width: 59%;
-    margin: 50px 220px;
+    margin: 3.1rem 13.8rem;
     border: solid 0.5em black;
-    box-shadow: 0 0 40px -10px #000; }
+    box-shadow: 0 0 2.5rem -0.63rem #000; }
 
 .title {
   font-size: 5em; }
@@ -181,7 +186,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 1em;
-  margin: 50px auto 300px;
+  margin: 3.1rem auto 18.8rem;
   width: 100%; }
   .horarios__info {
     display: flex;
@@ -191,13 +196,13 @@ footer {
     gap: 1em;
     width: 70%;
     height: 50%;
-    margin: 100px auto 30px;
-    padding: 50px;
+    margin: 6.25rem auto 1.9rem;
+    padding: 3.1rem;
     font-size: 2.5em;
     text-align: center;
     border-left: solid 0.2em black;
     border-bottom: solid 0.2em black;
-    box-shadow: 0 0 40px -10px #000; }
+    box-shadow: 0 0 2.5rem -0.63rem #000; }
     .horarios__info:hover {
       border-right: solid 0.2em white;
       border-top: solid 0.2em white; }
@@ -210,40 +215,38 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 1em;
-  margin-top: 100px;
-  margin-bottom: 300px; }
+  margin-top: 6.3rem;
+  margin-bottom: 18.8rem; }
   .prices__img {
-    margin-top: 100px;
+    margin-top: 6.3rem;
     border: solid 0.5em black;
-    box-shadow: 0 0 40px -10px #000; }
+    box-shadow: 0 0 2.5rem -0.63rem #000; }
 
 .prices__text {
   font-size: 5em; }
 
 /* Estilos Contacto */
 .form {
-  width: 440px;
-  height: 540px;
+  width: 27.5rem;
+  height: 36.8rem;
   background: #e6e6e6;
   border: solid 0.5em black;
-  /*border-radius:8px;*/
-  box-shadow: 0 0 40px -10px #000;
-  margin: 150px auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
+  box-shadow: 0 0 2.5rem -0.63rem #000;
+  margin: 9.4rem auto;
+  padding: 1.3rem 1.9rem;
   box-sizing: border-box;
   font-family: 'Montserrat',sans-serif;
   position: relative; }
   .form__text {
-    margin: 10px 0;
-    padding-bottom: 10px;
-    width: 180px;
+    margin: 0.6rem 0;
+    padding-bottom: 0.6rem;
+    width: 11.2rem;
     color: #78788c;
     border-bottom: 3px solid #78788c; }
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: 0.63rem;
   box-sizing: border-box;
   background: none;
   outline: none;
@@ -251,23 +254,23 @@ input {
   border: 0;
   font-family: 'Montserrat',sans-serif;
   transition: all .3s;
-  border-bottom: 2px solid #bebed2; }
+  border-bottom: 0.13rem solid #bebed2; }
   input:focus {
-    border-bottom: 2px solid #78788c; }
+    border-bottom: 0.13rem solid #78788c; }
 
 p:before {
   content: attr(type);
   display: block;
-  margin: 28px 0 0;
-  font-size: 20px;
+  margin: 1.8rem 0 0;
+  font-size: 2.0em;
   color: #5a5a5a; }
 
 button {
   float: right;
-  padding: 8px 12px;
-  margin: 8px 0 0;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0 0;
   font-family: 'Montserrat',sans-serif;
-  border: 2px solid #78788c;
+  border: 0.13rem solid #78788c;
   background: 0;
   color: #5a5a6e;
   cursor: pointer;
@@ -278,32 +281,31 @@ button {
 
 .contact {
   position: relative;
-  bottom: -15px;
-  right: 20px;
+  bottom: -0.9rem;
+  right: 1.3rem;
   background: #50505a;
   color: #fff;
-  width: 320px;
-  margin-top: 50px;
-  padding: 16px 4px 16px 0;
-  /*border-radius:6px;*/
-  font-size: 13px;
-  box-shadow: 10px 10px 40px -14px #000; }
+  width: 20rem;
+  margin-top: 3.2rem;
+  padding: 1rem 0.3rem 1rem 0;
+  font-size: 1.3em;
+  box-shadow: 0.6rem 0.6rem 2.5rem -0.9rem #000; }
 
 .phone {
-  margin: 0 5px 0 15px; }
+  margin: 0 0.3rem 0 0.9rem; }
 
 .email {
-  margin: 0 5px 0 15px; }
+  margin: 0 0.3rem 0 0.9rem; }
 
 .btn-whatsapp {
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 4.4rem;
+  height: 4.4rem;
   color: #fff;
   position: fixed;
   margin-bottom: 0px;
-  right: 50px;
+  right: 3.1rem;
   border-radius: 50%;
-  line-height: 550px;
+  line-height: 34.4rem;
   text-align: center;
   z-index: 999; }

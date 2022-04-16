@@ -5,59 +5,55 @@ header {
     &__logo {
         flex-basis: 30%;
     }
+
     a {
-        text-decoration: none;  
+        text-decoration: none;
         color: black;
         display: inline-block;
         font-size: 1.8em;
         padding: 1rem;
-        
+
     }
+
     nav {
         @include flex(row, space-between, center, 1em);
     }
-    
+
     .navbar {
         @include flex(row, space-around, center, 0em);
-            min-height: 10vh;
-            flex-basis: 70%;
-            list-style-type: none;
+        min-height: 10vh;
+        flex-basis: 70%;
+        list-style-type: none;
 
-            &__item {
-                font-family:'Montserrat',sans-serif;
-                border-left: solid 5px black;
-                border-bottom: solid 5px black;
+        &__item {
+            font-family: 'Montserrat', sans-serif;
+            border-left: solid 0.3rem black;
+            border-bottom: solid 0.3rem black;
+            text-align: center;
+
+
+            &:hover {
+                width: 15em;
+                font-size: 1.3em;
+                cursor: pointer;
+                border-right: solid 0.3rem white;
+                border-top: solid 0.3rem white;
                 text-align: center;
-                
 
-                    &:hover {
-                    width: 15em;
-                    font-size: 1.3em;
-                    cursor: pointer;
-                    border-right: solid 5px white;
-                    border-top: solid 5px white;
-                    text-align: center;
-                
-                            }
-                            &--active {
-                                font-family:'Montserrat',sans-serif; 
-                                width: 15em;
-                                color: white;
-                                text-align: center;
-                                font-size: 1.3em;
-                                cursor: pointer;
-                                border-right: solid 5px white;
-                                border-top: solid 5px white;
-                                border-left: solid 5px black;
-                                border-bottom: solid 5px black;
-                            }
-                }
-
-
-
-                
             }
+
+            &--active {
+                font-family: 'Montserrat', sans-serif;
+                width: 15em;
+                color: white;
+                text-align: center;
+                font-size: 1.3em;
+                cursor: pointer;
+                border-right: solid 0.3rem white;
+                border-top: solid 0.3rem white;
+                border-left: solid 0.3rem black;
+                border-bottom: solid 0.3rem black;
+            }
+        }
+    }
 }
-
-
-
