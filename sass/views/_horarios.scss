@@ -10,12 +10,12 @@
             padding: 3.1rem;
             font-size: 2.5em;
             text-align: center;
-            border-left: solid 0.2em black;
-            border-bottom: solid 0.2em black;
-            box-shadow:0 0 2.5rem -0.63rem #000;
+            border-left: solid 0.2em $principal;
+            border-bottom: solid 0.2em $principal;
+            box-shadow:0 0 2.5rem -0.63rem $principal;
                 &:hover {
-                    border-right: solid 0.2em white;
-                    border-top: solid 0.2em white;
+                    border-right: solid 0.2em $secondary;
+                    border-top: solid 0.2em $secondary;
                 }
             &--negrita {
                 font-weight: bold;

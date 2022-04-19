@@ -30,7 +30,7 @@ input{
     outline:none;
     resize:none;
     border:0;
-    font-family:'Montserrat',sans-serif;
+    font-family:$font-primary;
     transition:all .3s;
     border-bottom:0.13rem solid #bebed2;
     &:focus{
@@ -49,7 +49,7 @@ button{
     float:right;
     padding:0.5rem 0.75rem;
     margin:0.5rem 0 0;
-    font-family:'Montserrat',sans-serif;
+    font-family: $font-primary;
     border:0.13rem solid #78788c;
     background:0;
     color:#5a5a6e;
@@ -57,7 +57,7 @@ button{
     transition:all .3s;
     &:hover{
         background:#78788c;
-        color:#fff
+        color: $secondary;
     }
 }
 .contact{
@@ -65,12 +65,12 @@ button{
     bottom:-0.9rem;
     right:1.3rem;
     background:#50505a;
-    color:#fff;
+    color:$secondary;
     width:20rem;
     margin-top: 3.2rem;
     padding:1rem 0.3rem 1rem 0;
     font-size:1.3em;
-    box-shadow:0.6rem 0.6rem 2.5rem -0.9rem #000;
+    box-shadow:0.6rem 0.6rem 2.5rem -0.9rem $principal;
 }
 
 .phone {
@@ -85,7 +85,7 @@ button{
     display: block;
     width: 4.4rem;
     height: 4.4rem;
-    color: #fff;
+    color: $secondary;
     position: fixed;
     margin-bottom: 0px;
     right: 3.1rem;

@@ -1,14 +1,4 @@
 /*VARIABLES*/
-.background__color--blue {
-  background-color: blue; }
-
-.background__color--Red {
-  background-color: Red; }
-
-.background__color--yellow {
-  background-color: yellow; }
-
-/*HACER ROOTS*/
 /*GLOBALES*/
 /*Normalize*/
 *,
@@ -54,10 +44,13 @@ header__logo {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: #000;
   display: inline-block;
   font-size: 1.8em;
   padding: 1rem; }
+  header a:hover {
+    color: #000;
+    text-decoration: none; }
 
 header nav {
   display: flex;
@@ -76,28 +69,29 @@ header .navbar {
   flex-basis: 70%;
   list-style-type: none; }
   header .navbar__item {
-    font-family: 'Montserrat', sans-serif;
-    border-left: solid 0.3rem black;
-    border-bottom: solid 0.3rem black;
+    font-family: "Montserrat", serif;
+    border-left: solid 0.3rem #000;
+    border-bottom: solid 0.3rem #000;
     text-align: center; }
     header .navbar__item:hover {
+      color: #000;
       width: 15em;
       font-size: 1.3em;
       cursor: pointer;
-      border-right: solid 0.3rem white;
-      border-top: solid 0.3rem white;
+      border-right: solid 0.3rem #fff;
+      border-top: solid 0.3rem #fff;
       text-align: center; }
     header .navbar__item--active {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", serif;
       width: 15em;
-      color: white;
+      color: #fff;
       text-align: center;
       font-size: 1.3em;
       cursor: pointer;
-      border-right: solid 0.3rem white;
-      border-top: solid 0.3rem white;
-      border-left: solid 0.3rem black;
-      border-bottom: solid 0.3rem black; }
+      border-right: solid 0.3rem #fff;
+      border-top: solid 0.3rem #fff;
+      border-left: solid 0.3rem #000;
+      border-bottom: solid 0.3rem #000; }
 
 /*FOOTER*/
 footer {
@@ -115,7 +109,7 @@ footer {
 
 .footer__text {
   font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", serif; }
 
 /*VIEWS*/
 /* Estilos Index */
@@ -131,12 +125,12 @@ footer {
   padding: 3.1rem;
   font-size: 2.2em;
   text-align: center;
-  border-left: solid 0.2em black;
-  border-bottom: solid 0.2em black;
+  border-left: solid 0.2em #000;
+  border-bottom: solid 0.2em #000;
   box-shadow: 0 0 2.5rem -0.63rem #000; }
   .about__left:hover {
-    border-right: solid 0.2em white;
-    border-top: solid 0.2em white; }
+    border-right: solid 0.2em #fff;
+    border-top: solid 0.2em #fff; }
 
 .about__right {
   display: flex;
@@ -150,12 +144,12 @@ footer {
   padding: 3.1rem;
   font-size: 2.2em;
   text-align: center;
-  border-right: solid 0.2em white;
-  border-top: solid 0.2em white;
+  border-right: solid 0.2em #fff;
+  border-top: solid 0.2em #fff;
   box-shadow: 0 0 2.5rem -0.63rem #000; }
   .about__right:hover {
-    border-left: solid 0.2em black;
-    border-bottom: solid 0.2em black; }
+    border-left: solid 0.2em #000;
+    border-bottom: solid 0.2em #000; }
 
 .position {
   display: flex;
@@ -174,7 +168,7 @@ footer {
   .zonas__img {
     width: 59%;
     margin: 3.1rem 13.8rem;
-    border: solid 0.5em black;
+    border: solid 0.5em #000;
     box-shadow: 0 0 2.5rem -0.63rem #000; }
 
 .title {
@@ -200,12 +194,12 @@ footer {
     padding: 3.1rem;
     font-size: 2.5em;
     text-align: center;
-    border-left: solid 0.2em black;
-    border-bottom: solid 0.2em black;
+    border-left: solid 0.2em #000;
+    border-bottom: solid 0.2em #000;
     box-shadow: 0 0 2.5rem -0.63rem #000; }
     .horarios__info:hover {
-      border-right: solid 0.2em white;
-      border-top: solid 0.2em white; }
+      border-right: solid 0.2em #fff;
+      border-top: solid 0.2em #fff; }
     .horarios__info--negrita {
       font-weight: bold; }
 
@@ -219,7 +213,7 @@ footer {
   margin-bottom: 18.8rem; }
   .prices__img {
     margin-top: 6.3rem;
-    border: solid 0.5em black;
+    border: solid 0.5em #000;
     box-shadow: 0 0 2.5rem -0.63rem #000; }
 
 .prices__text {
@@ -252,7 +246,7 @@ input {
   outline: none;
   resize: none;
   border: 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", serif;
   transition: all .3s;
   border-bottom: 0.13rem solid #bebed2; }
   input:focus {
@@ -269,7 +263,7 @@ button {
   float: right;
   padding: 0.5rem 0.75rem;
   margin: 0.5rem 0 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", serif;
   border: 0.13rem solid #78788c;
   background: 0;
   color: #5a5a6e;
