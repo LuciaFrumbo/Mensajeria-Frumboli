@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-size: 62.5%;
-  font-family: 'Montserrat', serif;
+  font-family: #000;
   background-image: linear-gradient(to bottom, #cbced1, #a8b3bf, #8599ad, #62809c, #3e678b); }
 
 main {
@@ -31,11 +31,7 @@ main {
   .mediaflex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
-  .horarios__media {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
+    flex-wrap: wrap; } }
 
 /*PARTIALS*/
 /*HEADER*/
@@ -166,7 +162,6 @@ footer {
   text-align: center;
   align-items: center; }
   .zonas__img {
-    width: 59%;
     margin: 3.1rem 13.8rem;
     border: solid 0.5em #000;
     box-shadow: 0 0 2.5rem -0.63rem #000; }
@@ -184,7 +179,7 @@ footer {
   width: 100%; }
   .horarios__info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 1em;
