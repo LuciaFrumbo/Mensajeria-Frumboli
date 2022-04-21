@@ -10,11 +10,32 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1012px) {
-
     .mediaflex {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
 
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .about__left{
+        flex-wrap: wrap;
+            
+    }
+    .about__right{
+        flex-wrap: wrap;
+    }
+
+    footer {
+        @include flex(column, center, center, 1em);
+        padding: 15rem;
+    }
+    .footer__text {
+        text-align: center;
+    }
+
+    .footer__logos {
+        @include flex(column, space-between, center, 1rem)
     }
 }

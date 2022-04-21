@@ -2,7 +2,7 @@
 .about__left {
         @include flex(row, space-around, center, 1em);
         width: 100%;
-        height: 30%;
+        height: 100%;
         margin: 3.1rem auto 1.9rem;
         padding: 3.1rem;
         font-size: 2.2em;
@@ -19,7 +19,7 @@
 .about__right {
     @include flex(row, space-around, center, 1em);
         width: 100%;
-        height: 30%;
+        height: 100%;
         margin: 3.1rem auto 1.9rem;
         padding: 3.1rem;
         font-size: 2.2em;
