@@ -2,25 +2,28 @@
     @include flex(column, space-around, center, 1em);
     margin: 3.1rem auto 18.8rem;
     width: 100%;
-        &__info {
-            @include flex(column, space-around, center, 1em);
-            width: 70%;
-            height: 100%;
-            margin: 6.25rem auto 1.9rem;
-            padding: 3.1rem;
-            font-size: 2.5em;
-            text-align: center;
-            border-left: solid 0.2em $principal;
-            border-bottom: solid 0.2em $principal;
-            box-shadow:0 0 2.5rem -0.63rem $principal;
-                &:hover {
-                    border-right: solid 0.2em $secondary;
-                    border-top: solid 0.2em $secondary;
-                }
-            &--negrita {
-                font-weight: bold;
-            }
 
+    &__info {
+        @include flex(column, space-around, center, 1em);
+        width: 70%;
+        height: 100%;
+        margin: 6.25rem auto 1.9rem;
+        padding: 3.1rem;
+        font-size: 2.5em;
+        text-align: center;
+        border-left: solid 0.2em $principal;
+        border-bottom: solid 0.2em $principal;
+        box-shadow: 0 0 2.5rem -0.63rem $principal;
+
+        &:hover {
+            border-right: solid 0.2em $secondary;
+            border-top: solid 0.2em $secondary;
         }
+
+        &--negrita {
+            font-weight: bold;
+        }
+
+    }
 
 }

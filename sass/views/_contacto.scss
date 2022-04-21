@@ -1,82 +1,87 @@
 /* Estilos Contacto */
 
 
-.form{
-    width:27.5rem;
-    height:36.8rem;
-    background:#e6e6e6;
+.form {
+    width: 27.5rem;
+    height: 36.8rem;
+    background: #e6e6e6;
     border: solid 0.5em black;
-    box-shadow:0 0 2.5rem -0.63rem #000;
-    margin:9.4rem auto;
-    padding:1.3rem 1.9rem;
-    box-sizing:border-box;
-    font-family:'Montserrat',sans-serif;
-    position:relative;
+    box-shadow: 0 0 2.5rem -0.63rem #000;
+    margin: 9.4rem auto;
+    padding: 1.3rem 1.9rem;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
 
-    &__text{
-        margin:0.6rem 0;
-        padding-bottom:0.6rem;
-        width:11.2rem;
-        color:#78788c;
-        border-bottom:3px solid #78788c;
+    &__text {
+        margin: 0.6rem 0;
+        padding-bottom: 0.6rem;
+        width: 11.2rem;
+        color: #78788c;
+        border-bottom: 3px solid #78788c;
     }
 }
 
-input{
-    width:100%;
-    padding:0.63rem;
-    box-sizing:border-box;
-    background:none;
-    outline:none;
-    resize:none;
-    border:0;
-    font-family:$font-primary;
-    transition:all .3s;
-    border-bottom:0.13rem solid #bebed2;
-    &:focus{
-        border-bottom:0.13rem solid #78788c;
-    }
-}
-p:before{
-    content:attr(type);
-    display:block;
-    margin:1.8rem 0 0;
-    font-size:2.0em;
-    color:#5a5a5a;
-}
-
-button{
-    float:right;
-    padding:0.5rem 0.75rem;
-    margin:0.5rem 0 0;
+input {
+    width: 100%;
+    padding: 0.63rem;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
     font-family: $font-primary;
-    border:0.13rem solid #78788c;
-    background:0;
-    color:#5a5a6e;
-    cursor:pointer;
-    transition:all .3s;
-    &:hover{
-        background:#78788c;
+    transition: all .3s;
+    border-bottom: 0.13rem solid #bebed2;
+
+    &:focus {
+        border-bottom: 0.13rem solid #78788c;
+    }
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 1.8rem 0 0;
+    font-size: 2.0em;
+    color: #5a5a5a;
+}
+
+button {
+    float: right;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem 0 0;
+    font-family: $font-primary;
+    border: 0.13rem solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        background: #78788c;
         color: $secondary;
     }
 }
-.contact{
-    position:relative;
-    bottom:-0.9rem;
-    right:1.3rem;
-    background:#50505a;
-    color:$secondary;
-    width:20rem;
+
+.contact {
+    position: relative;
+    bottom: -0.9rem;
+    right: 1.3rem;
+    background: #50505a;
+    color: $secondary;
+    width: 20rem;
     margin-top: 3.2rem;
-    padding:1rem 0.3rem 1rem 0;
-    font-size:1.3em;
-    box-shadow:0.6rem 0.6rem 2.5rem -0.9rem $principal;
+    padding: 1rem 0.3rem 1rem 0;
+    font-size: 1.3em;
+    box-shadow: 0.6rem 0.6rem 2.5rem -0.9rem $principal;
 }
 
 .phone {
     margin: 0 0.3rem 0 0.9rem;
 
 }
+
 .email {
     margin: 0 0.3rem 0 0.9rem;
 }
