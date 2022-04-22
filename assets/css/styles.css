@@ -183,15 +183,15 @@ footer {
   align-items: center;
   gap: 0 rem;
   margin-top: 6.3rem;
-  text-align: center;
-  /*  align-items: center;*/ }
+  text-align: center; }
   .zonas__img {
-    margin: 3.1rem 13.8rem;
+    margin-top: 3.1rem;
     border: solid 0.3rem #000;
     box-shadow: 0 0 2.5rem -0.63rem #000; }
 
 .title {
-  font-size: 5em; }
+  font-size: 5em;
+  flex-wrap: wrap; }
 
 .horarios {
   display: flex;

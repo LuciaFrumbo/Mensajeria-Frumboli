@@ -4,10 +4,9 @@
     @include flex(column, space-between, center, 0 rem);
     margin-top: 6.3rem;
     text-align: center;
-  /*  align-items: center;*/
 
     &__img {
-        margin: 3.1rem 13.8rem;
+        margin-top: 3.1rem;
         border: solid 0.3rem $principal;
         box-shadow: 0 0 2.5rem -0.63rem $principal;
     }
@@ -15,4 +14,5 @@
 
 .title {
     font-size: 5em;
+    flex-wrap: wrap;
 }
