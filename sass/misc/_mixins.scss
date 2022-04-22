@@ -39,4 +39,8 @@
     .footer__logos {
         @include flex(column, space-between, center, 1rem)
     }
+
+    .zona {
+        flex-wrap: wrap;
+    }
 }
